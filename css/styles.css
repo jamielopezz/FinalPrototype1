@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+.dawning-of-a-new-day-regular {
+  font-family: "Dawning of a New Day", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+body {
+	background-color: #F2ACC6;
+}
+.navbar {
+	background-color: #0678BF !important;
+}
+.navbar-brand {
+	color: white;
+	font-family: Red Hat Display;
+}
+.nav-link {
+	color: white;
+	font-family: Red Hat Display;
+}
+a:hover {
+	color: #F26D6D !important;
+}
+#mainHeader {
+	/*background-image: url("/images/ImgResponsive_Placeholder.png");*/
+	
+}
+h1 {
+	padding: 160px;
+}
+h1:hover {
+	transform: scale(1.25);
+}
+#headerColumn {
+	width: 1000px;
+}
+.myHeader {
+	font-family: Dawning of a New Day;
+	font-size: 80px;
+	text-align: center;
+	background-image: url("/images/rippedPaper2.png");
+	object-position: center top;
+	height: 500px;
+}
+#btnContainer {
+	display: flex;
+    justify-content: center;
+}
+#contactBtn {
+	width: 150px;
+	height: 60px;
+	font-family: Red Hat Display;
+	font-size: 20px;
+}
+#contactBtn:hover {
+	transform: scale(1.05);
+}
+h2 {
+	font-family: Red Hat Display;
+	font-size: 60px;
+	text-align: center;
+	color: #284F40;
+	padding: 20px;
+}
+h2:hover {
+	transform: scale(1.05);
+}
+.img-fluid:hover {
+	transform: scale(1.05);
+}
+p {
+	font-family: EB Garamond;
+	font-size: 30px;
+}
+#aboutMe {
+	background-color: #58A681;
+	border-radius: 20px;
+	color: #284F40;
+	margin: 20px;
+}
+#myWork {
+	background-color: #F26D6D;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 20px;
+}
+#myWork h2 {
+	color: #692D2D;
+}
+#bodyText1 {
+	background-color: #0678Bf;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 20px;
+}
+#bodyText1 h2 {
+	color: #012A45;
+}
+.btn-primary {
+	background-color: #f2dd72 !important;
+	color: #4F4224 !important;
+}
