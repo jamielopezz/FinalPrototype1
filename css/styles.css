@@ -39,7 +39,7 @@ h1:hover {
 	font-family: Dawning of a New Day;
 	font-size: 80px;
 	text-align: center;
-	background-image: url("/images/rippedPaper2.png");
+	background-image: url("../images/rippedPaper2.png") !important;
 	object-position: center top;
 	height: 500px;
 }
